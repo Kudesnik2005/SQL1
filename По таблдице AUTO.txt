@@ -1,0 +1,8 @@
+1. 
+a) SELECT make FROM Auto WHERE ID IN (SELECT Auto_ID FROM Caracteristic WHERE Max_speed BETWEEN 150 AND 230 AND Cobin_type LIKE '%_____%'
+b) SELECT make FROM Auto WHERE ID IN (SELECT Auto_ID FROM Caracteristic WHERE Max_speed >= 150 AND Max_speed <= 230 AND Cobin_type LIKE '%_____%'
+2. SELECT Maker AS Top-2 FROM Auto WHERE ID IN (SELECT Auto_ID FROM Caracteristic WHERE Engin_type = "disel") ORDER BY ASC
+3. SELECT Make FROM Auto WHERE ID IN (SELECT Auto_ID FROM Caracteristic WHERE MAX(Max_speed)
+4. SELECT Engin_type,Cobin_type FROM Caracteristic WHERE Max_speed <200 AND Auto_ID IN (SELECT Maker FROM Auto Where Like '_______')
+5. SELECT Count(*) AS Red FROM Caracteristic WHERE Color = "Red" 
+6. SELECT Maker FROM Auto WHERE Maker = Make
