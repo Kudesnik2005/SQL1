@@ -41,5 +41,5 @@ Book
 2. SELECT Название FROM Book WHERE Название LIKE '%Visual%' AND NOT LIKE '%Basic%'	
 3. SELECT название FROM Book WHERE Название LIKE '%[0-9]%'	
 4. SELECT название FROM Book WHERE Название LIKE '%[0-9]%[0-9]%[0-9]%'	
-5. SELECT название FROM Book WHERE Название LIKE '[0-9][0-9][0-9][0-9]'	
+5. SELECT название FROM Book WHERE Название LIKE '%[0-9]%[0-9]%[0-9]%[0-9]'	
 
